@@ -10,7 +10,7 @@ const initialContacts = [
 const contactsSlice = createSlice({
     name: 'contacts',
     initialState: {
-        items: initialContacts, // Додані початкові контакти
+        items: initialContacts, // Початкові контакти
     },
     reducers: {
         addContact(state, action) {

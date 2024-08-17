@@ -21,7 +21,11 @@ const ContactForm = () => {
   };
 
   return (
-    <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
+    <Formik
+      initialValues={initialValues}
+      validationSchema={validationSchema}
+      onSubmit={handleSubmit}
+    >
       <Form className={style.formContainer}>
         <div className={style.formName}>
           <label htmlFor="name" className={style.label}>Name</label>
